@@ -1,0 +1,200 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+/* Navbar Dark Mode */
+body.dark-mode #mainNav {
+    background-color: rgba(33, 37, 41, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode #mainNav .navbar-brand {
+    color: #0d6efd;
+}
+
+body.dark-mode #mainNav .nav-link {
+    color: #f8f9fa;
+}
+
+body.dark-mode #dark-mode-toggle {
+    color: #f8f9fa;
+}
+
+body.dark-mode .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Hero Section Dark Mode */
+body.dark-mode .hero-section {
+    background-color: #121212;
+}
+
+body.dark-mode .profile-image {
+    border-color: #343a40;
+}
+
+/* Sections Dark Mode */
+body.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+}
+
+body.dark-mode .about-content,
+body.dark-mode .skills-category,
+body.dark-mode .project-card,
+body.dark-mode .timeline-panel,
+body.dark-mode .contact-card,
+body.dark-mode .contact-info {
+    background-color: #2d2d2d;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Progress Bars Dark Mode */
+body.dark-mode .progress {
+    background-color: #444;
+}
+
+/* Cards Dark Mode */
+body.dark-mode .card {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .card-footer {
+    background-color: #2d2d2d;
+}
+
+/* Timeline Dark Mode */
+body.dark-mode .timeline:before {
+    background-color: #444;
+}
+
+/* Contact Form Dark Mode */
+body.dark-mode .form-control {
+    background-color: #333;
+    border-color: #444;
+    color: #f8f9fa;
+}
+
+body.dark-mode .form-control:focus {
+    background-color: #333;
+    color: #f8f9fa;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #adb5bd;
+}
+
+/* Icon Box Dark Mode */
+body.dark-mode .icon-box {
+    background-color: rgba(13, 110, 253, 0.2);
+}
+
+/* Links Dark Mode */
+body.dark-mode .contact-details a {
+    color: #adb5bd;
+}
+
+body.dark-mode .contact-details a:hover {
+    color: #0d6efd;
+}
+
+/* Dark Mode Toggle Icon */
+body.dark-mode #dark-mode-toggle i.fa-moon {
+    display: none;
+}
+
+body.dark-mode #dark-mode-toggle i.fa-sun {
+    display: inline-block;
+}
+
+#dark-mode-toggle i.fa-sun {
+    display: none;
+}
+
+/* Media Gallery Dark Mode */
+body.dark-mode .gallery-item {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .gallery-overlay {
+    background: rgba(13, 110, 253, 0.9);
+}
+
+/* About Section Dark Mode Enhancements */
+body.dark-mode .education-card, 
+body.dark-mode .certification-card {
+    background-color: #2d2d2d;
+    color: #f8f9fa;
+}
+
+body.dark-mode .timeline-small:before {
+    background-color: #444;
+}
+
+body.dark-mode .timeline-small li:before {
+    background-color: var(--primary-color);
+}
+
+body.dark-mode .timeline-small .text-muted {
+    color: #adb5bd !important;
+}
+
+/* Projects Section Dark Mode Enhancements */
+body.dark-mode .project-card {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .project-card .card-title,
+body.dark-mode .project-card .card-text {
+    color: #f8f9fa;
+}
+
+body.dark-mode .btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+body.dark-mode .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+body.dark-mode .text-muted{
+    color: #adb5bd !important;
+}
+body.dark-mode label{
+    color: #f8f9fa !important;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+/* Services Section Dark Mode */
+body.dark-mode .service-card {
+    background-color: #2d2d2d;
+    color: #f8f9fa;
+}
+
+body.dark-mode .service-card:before {
+    background: linear-gradient(135deg, rgba(13, 110, 253, 0.1) 0%, rgba(13, 110, 253, 0.05) 100%);
+}
+
+body.dark-mode .service-icon {
+    background-color: rgba(13, 110, 253, 0.2);
+}
+
+/* Resume Download Button Dark Mode */
+body.dark-mode .btn-outline-dark {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+body.dark-mode .btn-outline-dark:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+} 
